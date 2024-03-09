@@ -5,7 +5,7 @@ import MarkdownItMathjax3 from 'markdown-it-mathjax3'
 import { BiDirectionalLinks } from '@nolebase/markdown-it-bi-directional-links'
 import type { Options as ElementTransformOptions } from '@nolebase/markdown-it-element-transform'
 import { ElementTransform } from '@nolebase/markdown-it-element-transform'
-import { githubRepoLink, siteDescription, siteName, targetDomain } from '../metadata'
+import { githubRepoLink, siteDescription, siteName, targetDomain, twitterLink } from '../metadata'
 import { sidebar } from './docsMetadata.json'
 
 export default defineConfig({
@@ -74,7 +74,7 @@ export default defineConfig({
     },
     socialLinks: [
       { icon: 'github', link: githubRepoLink },
-      { icon: 'x', link: githubRepoLink },
+      { icon: 'x', link: twitterLink },
     ],
     footer: {
       message: '用 <span style="color: #e25555;">&#9829;</span> 撰写',

@@ -14,3 +14,4 @@ export const plainTargetDomain = 'nolebase.ayaka.io'
 export const targetDomain = `https://${plainTargetDomain}`
 
 /** 社交媒体 */
+export const twitterLink = 'https://twitter.com/wwzzyying'
