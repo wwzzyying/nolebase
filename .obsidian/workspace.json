@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/🔒 PKI 公钥基础设施/通过 OpenSSL 的 s_client 子命令洞悉 mTLS 时的通信和握手步骤.md",
+                "file": "笔记/🗺️ 旅行/🏂🏻 Busan 釜山.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "openssl",
+                "query": "旅行",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,8 +81,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -103,7 +102,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "笔记/🔒 PKI 公钥基础设施/通过 OpenSSL 的 s_client 子命令洞悉 mTLS 时的通信和握手步骤.md",
+                "file": "笔记/🗺️ 旅行/🏂🏻 Busan 釜山.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -150,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/🔒 PKI 公钥基础设施/通过 OpenSSL 的 s_client 子命令洞悉 mTLS 时的通信和握手步骤.md"
+                "file": "笔记/🗺️ 旅行/🏂🏻 Busan 釜山.md"
               }
             }
           },
@@ -175,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/🔒 PKI 公钥基础设施/通过 OpenSSL 的 s_client 子命令洞悉 mTLS 时的通信和握手步骤.md",
+                "file": "笔记/🗺️ 旅行/🏂🏻 Busan 釜山.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,7 +191,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/🔒 PKI 公钥基础设施/通过 OpenSSL 的 s_client 子命令洞悉 mTLS 时的通信和握手步骤.md",
+                "file": "笔记/🗺️ 旅行/🏂🏻 Busan 釜山.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -214,7 +213,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 359.5
+    "width": 263.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -223,61 +223,38 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
       "markdown-importer:打开 Markdown 格式转换器": false,
       "random-note:开始漫游笔记": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-spaced-repetition:复习卡片": false,
-      "obsidian42-brat:BRAT": false
+      "obsidian42-brat:BRAT": false,
+      "command-palette:打开命令面板": false
     }
   },
   "active": "8ff8069aed0f7393",
   "lastOpenFiles": [
-    "笔记/🤖 AI 人工智能/配置 CUDA 的一万种方法.md",
+    "笔记/index.md",
+    "笔记/🗺️ 旅行/🏂🏻 Busan 釜山.md",
+    "视图/尚未编写完成的页面.md",
+    "vite.config.ts.timestamp-1710048981501-7e4e904b8db64.mjs",
+    "vite.config.ts.timestamp-1710048927764-5627610ce1baa.mjs",
+    "笔记/🗺️ 旅行/assets/busan/78B8A3BD-A34E-4B1A-9F4B-F7E6ACDDDE69.jpeg",
+    "笔记/🗺️ 旅行/assets/busan/89307ED6-D534-4695-B107-9F3A3232E418_1_102_o.jpeg",
+    "笔记/🗺️ 旅行/assets/busan/F00BD185-CE7C-4CFD-888B-33D19709C4E5_1_102_o.jpeg",
+    "笔记/🗺️ 旅行/assets/busan/0E1D47EF-220A-4F1C-AAFF-2C6913644D63_1_102_o.jpeg",
+    "笔记/🗺️ 旅行/assets/busan/0E8A26F1-0051-4BD9-9AD7-560352F222F7_1_102_o.jpeg",
+    "笔记/🗺️ 旅行/assets/busan/4AB173FE-628B-4DCE-B3CF-22D95F370F67_1_102_o.jpeg",
+    "笔记/🗺️ 旅行/assets/busan/36AF3CFB-4281-491D-830F-C57018453124_1_102_o.jpeg",
+    "笔记/🗺️ 旅行/assets/busan/43D24316-E1B6-469C-966A-A7974A8E674E_1_102_o.jpeg",
+    "vite.config.ts.timestamp-1710046069277-7d50ebd1f3b72.mjs",
+    "笔记/🗺️ 旅行/assets/busan/73A4182D-1152-4C15-9080-1FF960B6B42C_1_102_o.jpeg",
+    "笔记/🗺️ 旅行/assets/busan",
+    "笔记/🗺️ 旅行/🏂🏻 Busan釜山.md",
+    "笔记/🗺️ 旅行/ Busan釜山.md",
+    "笔记/🗺️ 旅行/🇰🇷 Busan釜山.md",
+    "笔记/🗺️ 旅行/🇰🇷Busan釜山.md",
     "pnpm-lock.yaml.3021958062",
     "node_modules/@vueuse",
-    "node_modules/@nolebase",
-    "笔记/🤖 AI 人工智能/各种 pip 包和 conda 包的名称都是什么含义？.md",
-    "笔记/🤖 AI 人工智能/安装和配置 NVIDIA 的 Apex.md",
-    "笔记/🤖 AI 人工智能/用 Megatron-LM 训练一个 GPT-2.md",
-    "笔记/🤖 AI 人工智能/用 FastEdit 微调大模型.md",
-    "笔记/🤖 AI 人工智能/将 chatGPT 与文档结合.md",
-    "笔记/🛠️ 开发/Vue 组件库.md",
-    "笔记/📟 终端/软件/Git 版本控制/通过环境变量 Debug Git 执行.md",
-    "笔记/📟 终端/Linux 命令索引.md",
-    "笔记/🤖 AI 人工智能/Megatron-LM 训练参数调优.md",
-    "笔记/🤖 AI 人工智能/Megatron-LM 的读取 checkpoint 的错误处理问题.md",
-    "笔记/🧶 手作/术语及词汇表.md",
-    "笔记/🧶 手作/手缝针法.md",
-    "笔记/🐾 Fursuit 兽装/不同的兽装类型.md",
-    "笔记/🐾 Fursuit 兽装/如何前往漫展.md",
-    "笔记/🐾 Fursuit 兽装/术语及词汇表.md",
-    "笔记/🧶 手作/布艺和裁缝/术语及词汇表.md",
-    "笔记/🧶 手作/裁缝/未命名",
-    "笔记/🧶 手作/裁缝/术语及词汇表",
-    "笔记/🧶 手作/布艺和裁缝",
-    "编目 Catalog/书籍/焦慮使用說明書.md",
-    "编目 Catalog/书籍/科技的本质：它是什么以及它如何演化.md",
-    "笔记/🛠️ 开发/用兼容性更好，体积更小的 Rive 渲染和播放 Lottie 动画.md",
-    "笔记/🧶 手作",
-    "笔记/🗺️ 旅行/🏝️ Koh Kham (Ko Kham) 康岛.md",
-    "笔记/🗺️ 旅行/assets/image-20240305200652.png",
-    "笔记/🗺️ 旅行/assets/image-20240305200608.png",
-    "笔记/🗺️ 旅行/assets/image-20240305200554.png",
-    "笔记/🗺️ 旅行/assets/image-20240305200526.png",
-    "笔记/🗺️ 旅行/assets",
-    "笔记/🗺️ 旅行",
-    "笔记/🤖 AI 人工智能/NVIDIA 生态.md",
-    "笔记/🧩 开源贡献/TrueNAS/为 TrueNAS 贡献.md",
-    "笔记/🧩 开源贡献/TrueNAS/assets/contribute-to-truenas-screenshot-5.png",
-    "笔记/🧩 开源贡献/TrueNAS/assets/contribute-to-truenas-screenshot-4.png",
-    "笔记/🧩 开源贡献/TrueNAS/assets/contribute-to-truenas-screenshot-3.png",
-    "笔记/🧩 开源贡献/TrueNAS/assets/contribute-to-truenas-screenshot-2.png",
-    "笔记/🧩 开源贡献/TrueNAS/assets/contribute-to-truenas-screenshot-1.png",
-    "Pasted image 20240126121238.png",
-    "笔记/📟 终端/软件/Git 版本控制/Git 客户端配置 SSH 验证.md",
-    "笔记/🎛️ 操作系统/🍎 macOS/修复在 macOS 上因为默认 pnpm 在 PATH 中权重过高导致 corepack 失效的问题.md",
-    "vite.config.ts.timestamp-1709534547251-1922f5641ae3e.mjs",
-    "未命名.canvas"
+    "node_modules/@nolebase"
   ]
 }
