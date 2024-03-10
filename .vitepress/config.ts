@@ -33,13 +33,13 @@ export default defineConfig({
         sizes: '16x16',
       },
     ],
-    ['meta', { name: 'author', content: 'Ayaka Neko, Ayaka Rizumu' }],
+    ['meta', { name: 'author', content: 'wuzhiying wwzzyying' }],
     [
       'meta',
       {
         name: 'keywords',
         content:
-          'markdown, knowledgebase, 知识库, vitepress, obsidian, notebook, notes, nekomeowww, littlesound',
+          'markdown, knowledgebase, 知识库, vitepress, obsidian, notebook, notes, wwzzyying',
       },
     ],
 
@@ -52,7 +52,7 @@ export default defineConfig({
     ['meta', { property: 'og:site_name', content: siteName }],
 
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
-    ['meta', { name: 'twitter:creator', content: 'Ayaka Neko, Ayaka Rizumu' }],
+    ['meta', { name: 'twitter:creator', content: 'wwzzyying' }],
     [
       'meta',
       { name: 'twitter:image', content: `${targetDomain}/og.png` },
