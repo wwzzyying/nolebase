@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/🗺️ 旅行/🏂🏻 Busan 釜山.md",
+                "file": "笔记/🚧 博客建设/解析CloudFlare域名并绑定到Vercel应用.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "笔记/🗺️ 旅行/🏂🏻 Busan 釜山.md",
+                "file": "笔记/🚧 博客建设/解析CloudFlare域名并绑定到Vercel应用.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/🗺️ 旅行/🏂🏻 Busan 釜山.md"
+                "file": "笔记/🚧 博客建设/解析CloudFlare域名并绑定到Vercel应用.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/🗺️ 旅行/🏂🏻 Busan 釜山.md",
+                "file": "笔记/🚧 博客建设/解析CloudFlare域名并绑定到Vercel应用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,7 +191,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/🗺️ 旅行/🏂🏻 Busan 釜山.md",
+                "file": "笔记/🚧 博客建设/解析CloudFlare域名并绑定到Vercel应用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -223,31 +223,36 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "markdown-importer:打开 Markdown 格式转换器": false,
-      "random-note:开始漫游笔记": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-spaced-repetition:复习卡片": false,
-      "obsidian42-brat:BRAT": false,
       "command-palette:打开命令面板": false
     }
   },
   "active": "8ff8069aed0f7393",
   "lastOpenFiles": [
+    "笔记/🚧 博客建设/assets/image_vercel_add_domain.png",
+    "笔记/🚧 博客建设/assets/image_domain_vercel.png",
+    "笔记/🚧 博客建设/解析CloudFlare域名并绑定到Vercel应用.md",
+    "笔记/index.md",
+    "笔记/🗺️ 旅行/🏂🏻 Busan 釜山.md",
+    "笔记/🚧 博客建设/assets",
+    "笔记/🚧 博客建设",
     "笔记/🗺️ 旅行/assets/busan/IMG_2360.jpeg",
     "笔记/🗺️ 旅行/assets/busan/IMG_2342.jpeg",
-    "笔记/🗺️ 旅行/🏂🏻 Busan 釜山.md",
+    "笔记/🗺️ 旅行/assets/busan/66F59522-3BD5-41B1-B897-6FE96C163501.heic",
     "笔记/🗺️ 旅行/assets/busan/4AB173FE-628B-4DCE-B3CF-22D95F370F67_1_102_o.jpeg",
+    "笔记/🗺️ 旅行/assets/busan/1D20F7DA-900F-4372-8C32-D770E529AD0E_1_201_a.heic",
     "笔记/🗺️ 旅行/assets/busan/1D20F7DA-900F-4372-8C32-D770E529AD0E_4_5005_c.jpeg",
     "笔记/🗺️ 旅行/assets/busan/36AF3CFB-4281-491D-830F-C57018453124_1_102_o.jpeg",
     "笔记/🗺️ 旅行/assets/busan/43D24316-E1B6-469C-966A-A7974A8E674E_1_102_o.jpeg",
     "笔记/🗺️ 旅行/assets/busan/73A4182D-1152-4C15-9080-1FF960B6B42C_1_102_o.jpeg",
     "笔记/🗺️ 旅行/assets/busan/78B8A3BD-A34E-4B1A-9F4B-F7E6ACDDDE69.jpeg",
-    "笔记/🗺️ 旅行/assets/busan/F00BD185-CE7C-4CFD-888B-33D19709C4E5_1_102_o.jpeg",
-    "笔记/🗺️ 旅行/assets/busan/89307ED6-D534-4695-B107-9F3A3232E418_1_102_o.jpeg",
+    "笔记/🗺️ 旅行/23645781-65FE-4D8E-9E0C-13A276F9FDF2_1_201_a.heic",
+    "笔记/🗺️ 旅行/assets/busan/23645781-65FE-4D8E-9E0C-13A276F9FDF2_1_201_a.heic",
+    "笔记/🗺️ 旅行/12021759-16EB-4636-BDC6-D4BB14BB74AB 1.heic",
+    "笔记/🗺️ 旅行/12021759-16EB-4636-BDC6-D4BB14BB74AB.heic",
+    "笔记/🗺️ 旅行/assets/busan/12021759-16EB-4636-BDC6-D4BB14BB74AB 2.heic",
+    "笔记/🗺️ 旅行/assets/busan/12021759-16EB-4636-BDC6-D4BB14BB74AB 1.heic",
     "🔌 知识库插件列表.md",
-    "笔记/index.md",
     "视图/尚未编写完成的页面.md",
-    "vite.config.ts.timestamp-1710048981501-7e4e904b8db64.mjs",
     "笔记/🗺️ 旅行/🏂🏻 Busan釜山.md",
     "笔记/🗺️ 旅行/ Busan釜山.md",
     "笔记/🗺️ 旅行/🇰🇷 Busan釜山.md",
