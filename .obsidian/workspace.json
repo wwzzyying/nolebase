@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/🚧 博客建设/解析CloudFlare域名并绑定到Vercel应用.md",
+                "file": "笔记/🏵 随想/🏝 又想去旅游了.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "笔记/🚧 博客建设/解析CloudFlare域名并绑定到Vercel应用.md",
+                "file": "笔记/🏵 随想/🏝 又想去旅游了.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/🚧 博客建设/解析CloudFlare域名并绑定到Vercel应用.md"
+                "file": "笔记/🏵 随想/🏝 又想去旅游了.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/🚧 博客建设/解析CloudFlare域名并绑定到Vercel应用.md",
+                "file": "笔记/🏵 随想/🏝 又想去旅游了.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,7 +191,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/🚧 博客建设/解析CloudFlare域名并绑定到Vercel应用.md",
+                "file": "笔记/🏵 随想/🏝 又想去旅游了.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,19 +218,22 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
   "active": "8ff8069aed0f7393",
   "lastOpenFiles": [
+    "笔记/🚧 博客建设/解析CloudFlare域名并绑定到Vercel应用.md",
+    "笔记/🏵 随想/🏝 又想去旅游了.md",
+    "笔记/🏵 随想",
+    "笔记/🗺️ 旅行/Untitled.md",
     "笔记/🚧 博客建设/assets/image_vercel_add_domain.png",
     "笔记/🚧 博客建设/assets/image_domain_vercel.png",
-    "笔记/🚧 博客建设/解析CloudFlare域名并绑定到Vercel应用.md",
     "笔记/index.md",
     "笔记/🗺️ 旅行/🏂🏻 Busan 釜山.md",
     "笔记/🚧 博客建设/assets",
@@ -250,7 +253,6 @@
     "笔记/🗺️ 旅行/12021759-16EB-4636-BDC6-D4BB14BB74AB 1.heic",
     "笔记/🗺️ 旅行/12021759-16EB-4636-BDC6-D4BB14BB74AB.heic",
     "笔记/🗺️ 旅行/assets/busan/12021759-16EB-4636-BDC6-D4BB14BB74AB 2.heic",
-    "笔记/🗺️ 旅行/assets/busan/12021759-16EB-4636-BDC6-D4BB14BB74AB 1.heic",
     "🔌 知识库插件列表.md",
     "视图/尚未编写完成的页面.md",
     "笔记/🗺️ 旅行/🏂🏻 Busan釜山.md",
