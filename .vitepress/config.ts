@@ -2,10 +2,14 @@ import process from 'node:process'
 import { defineConfig } from 'vitepress'
 import MarkdownItFootnote from 'markdown-it-footnote'
 import MarkdownItMathjax3 from 'markdown-it-mathjax3'
+
 import { BiDirectionalLinks } from '@nolebase/markdown-it-bi-directional-links'
 import type { Options as ElementTransformOptions } from '@nolebase/markdown-it-element-transform'
 import { ElementTransform } from '@nolebase/markdown-it-element-transform'
+import { buildEndGenerateOpenGraphImages } from '@nolebase/vitepress-plugin-og-image'
+
 import { githubRepoLink, siteDescription, siteName, targetDomain } from '../metadata'
+import { creatorNames, creatorUsernames } from './creators'
 import { sidebar } from './docsMetadata.json'
 
 export default defineConfig({
@@ -14,7 +18,10 @@ export default defineConfig({
   description: siteDescription,
   ignoreDeadLinks: true,
   head: [
-    ['meta', { name: 'theme-color', content: '#ffffff' }],
+    ['meta', {
+      name: 'theme-color',
+      content: '#ffffff',
+    }],
     [
       'link',
       {
@@ -23,7 +30,11 @@ export default defineConfig({
         sizes: '180x180',
       },
     ],
-    ['link', { rel: 'icon', href: '/logo.svg', type: 'image/svg+xml' }],
+    ['link', {
+      rel: 'icon',
+      href: '/logo.svg',
+      type: 'image/svg+xml',
+    }],
     [
       'link',
       {
@@ -33,37 +44,71 @@ export default defineConfig({
         sizes: '16x16',
       },
     ],
-    ['meta', { name: 'author', content: 'Ayaka Neko, Ayaka Rizumu' }],
+    ['meta', {
+      name: 'author',
+      content: creatorNames.join(', '),
+    }],
     [
       'meta',
       {
         name: 'keywords',
         content:
-          'markdown, knowledgebase, 知识库, vitepress, obsidian, notebook, notes, nekomeowww, littlesound',
+          ['markdown', 'knowledge-base', '知识库', 'vitepress', 'obsidian', 'notebook', 'notes', ...creatorUsernames].join(', '),
       },
     ],
 
-    ['meta', { property: 'og:title', content: siteName }],
+    ['meta', {
+      property: 'og:title',
+      content: siteName,
+    }],
     [
       'meta',
-      { property: 'og:image', content: `${targetDomain}/og.png` },
+      {
+        property: 'og:image',
+        content: `${targetDomain}/og.png`,
+      },
     ],
-    ['meta', { property: 'og:description', content: siteDescription }],
-    ['meta', { property: 'og:site_name', content: siteName }],
+    ['meta', {
+      property: 'og:description',
+      content: siteDescription,
+    }],
+    ['meta', {
+      property: 'og:site_name',
+      content: siteName,
+    }],
 
-    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
-    ['meta', { name: 'twitter:creator', content: 'Ayaka Neko, Ayaka Rizumu' }],
+    ['meta', {
+      name: 'twitter:card',
+      content: 'summary_large_image',
+    }],
+    ['meta', {
+      name: 'twitter:creator',
+      content: creatorUsernames.join(', '),
+    }],
     [
       'meta',
-      { name: 'twitter:image', content: `${targetDomain}/og.png` },
+      {
+        name: 'twitter:image',
+        content: `${targetDomain}/og.png`,
+      },
     ],
 
     [
       'link',
-      { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#927baf' },
+      {
+        rel: 'mask-icon',
+        href: '/safari-pinned-tab.svg',
+        color: '#927baf',
+      },
     ],
-    ['link', { rel: 'manifest', href: '/site.webmanifest' }],
-    ['meta', { name: 'msapplication-TileColor', content: '#603cba' }],
+    ['link', {
+      rel: 'manifest',
+      href: '/site.webmanifest',
+    }],
+    ['meta', {
+      name: 'msapplication-TileColor',
+      content: '#603cba',
+    }],
   ],
   themeConfig: {
     outline: { label: '页面大纲', level: 'deep' },
@@ -72,7 +117,9 @@ export default defineConfig({
       pattern: `${githubRepoLink}/tree/main/:path`,
       text: '编辑本页面',
     },
-    socialLinks: [{ icon: 'github', link: githubRepoLink }],
+    socialLinks: [
+      { icon: 'github', link: githubRepoLink },
+    ],
     footer: {
       message: '用 <span style="color: #e25555;">&#9829;</span> 撰写',
       copyright:
@@ -144,5 +191,13 @@ export default defineConfig({
         } as ElementTransformOptions
       })())
     },
+  },
+  async buildEnd(siteConfig) {
+    await buildEndGenerateOpenGraphImages({
+      baseUrl: targetDomain,
+      category: {
+        byLevel: 2,
+      },
+    })(siteConfig)
   },
 })

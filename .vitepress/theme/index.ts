@@ -27,18 +27,16 @@ import {
 } from '@nolebase/vitepress-plugin-page-properties/client'
 
 import { creators } from '../creators'
-import AppContainer from './components/AppContainer.vue'
 
+import AppContainer from './components/AppContainer.vue'
 import DocFooter from './components/DocFooter.vue'
 import HomePage from './components/HomePage.vue'
 import Share from './components/Share.vue'
-
 import TocList from './components/TocList.vue'
 
 import '@nolebase/vitepress-plugin-enhanced-readabilities/dist/style.css'
 import '@nolebase/vitepress-plugin-highlight-targeted-heading/dist/style.css'
 import '@nolebase/vitepress-plugin-inline-link-preview/dist/style.css'
-import '@nolebase/vitepress-plugin-git-changelog/client/style.css'
 import '@nolebase/vitepress-plugin-page-properties/client/style.css'
 
 import 'uno.css'
@@ -54,7 +52,9 @@ const ExtendedTheme: Theme = {
       'doc-top': () => [
         h(NolebaseHighlightTargetedHeading),
       ],
-      'doc-footer-before': () => h(DocFooter),
+      'doc-footer-before': () => [
+        h(DocFooter),
+      ],
       'nav-bar-content-after': () => [
         h(NolebaseEnhancedReadabilitiesMenu),
         h(Share),

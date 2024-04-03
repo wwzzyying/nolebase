@@ -4,6 +4,8 @@ import UnoCSS from 'unocss/vite'
 import { GitChangelog, GitChangelogMarkdownSection } from '@nolebase/vitepress-plugin-git-changelog/vite'
 import { PageProperties, PagePropertiesMarkdownSection } from '@nolebase/vitepress-plugin-page-properties/vite'
 
+import { githubRepoLink } from './metadata'
+
 export default defineConfig(async () => {
   return {
     assetsInclude: ['**/*.mov'],
@@ -16,8 +18,7 @@ export default defineConfig(async () => {
     },
     plugins: [
       GitChangelog({
-        repoURL: () => 'https://github.com/nolebase/nolebase',
-        maxGitLogCount: 1000,
+        repoURL: () => githubRepoLink,
       }),
       GitChangelogMarkdownSection({
         getChangelogTitle: (): string => {
@@ -26,27 +27,17 @@ export default defineConfig(async () => {
         getContributorsTitle: (): string => {
           return '贡献者'
         },
-        excludes: [],
-        exclude: (_, { helpers }): boolean => {
-          if (helpers.idEquals('toc.md'))
-            return true
-          if (helpers.idEquals('index.md'))
-            return true
-
-          return false
-        },
+        excludes: [
+          'toc.md',
+          'index.md',
+        ],
       }),
       PageProperties(),
       PagePropertiesMarkdownSection({
-        excludes: [],
-        exclude: (_, { helpers }): boolean => {
-          if (helpers.idEquals('toc.md'))
-            return true
-          if (helpers.idEquals('index.md'))
-            return true
-
-          return false
-        },
+        excludes: [
+          'toc.md',
+          'index.md',
+        ],
       }),
       Components({
         include: [/\.vue$/, /\.md$/],

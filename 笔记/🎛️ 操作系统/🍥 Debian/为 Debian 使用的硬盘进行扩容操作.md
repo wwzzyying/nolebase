@@ -45,7 +45,6 @@ sudo vim /etc/fstab
 # systemd generates mount units based on this file, see systemd.mount(5).
 # Please run 'systemctl daemon-reload' after making changes here.
 #
-# <file system> <mount point>   <type>  <options>       <dump>  <pass>
 # / was on /dev/sda2 during installation
 UUID=c10110c9-c86b-4020-ad6c-78e46ec3e642 /               ext4    errors=remount-ro 0       1
 # /boot/efi was on /dev/sda1 during installation
@@ -170,15 +169,15 @@ Partition Table: GPT
 Disk Flags:
 
 Number  Start   End     Size    File system     Name  Flags
- 1      1049kB  538MB   537MB   fat32                 boot, esp
- 2      538MB   41.9GB  41.4GB  ext4
- 3      41.9GB  42.9GB  1023MB  linux-swap(v1)
+1      1049kB  538MB   537MB   fat32                 boot, esp
+2      538MB   41.9GB  41.4GB  ext4
+3      41.9GB  42.9GB  1023MB  linux-swap(v1)
 ```
 
 可以通过
 
 ```shell
-rm <分区编号>
+rm <分区编号
 ```
 
 的命令进行删除操作。
